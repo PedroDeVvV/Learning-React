@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-shadow: 2px 2px blue;
+}
+
+.usado {
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
+
+.card {
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 10px 50px;
+}
+

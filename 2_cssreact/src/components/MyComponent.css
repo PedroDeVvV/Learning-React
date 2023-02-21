@@ -1,0 +1,11 @@
+p {
+  color: greenyellow;
+  background-color: orange;
+}
+
+.my-com-paragraph {
+  color: blue;
+  text-transform: uppercase;
+  background-color: red;
+  font-weight: 700;
+}
