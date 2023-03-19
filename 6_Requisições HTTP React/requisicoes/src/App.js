@@ -105,7 +105,12 @@ function App() {
             />
           </label>
           {/* 7 - state de loading no post */}
-          {loading ? <p>Aguarde!</p> : <input type="submit" value="Criar" />}
+          {/* PRIMEIRA MANEIRA */}
+          {/* {loading ? <p>Aguarde!</p> : <input type="submit" value="Criar" />} desativa o botão enquanto a requisição está sendo realizada */}
+
+          {/* outra maneira de realizar */}
+          {loading && <input type="submit" disabled value="Aguarde..."/>}
+          {!loading && <input type="submit" value="Criar"/>}
         </form>
       </div>
     </div>
