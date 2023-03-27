@@ -17,11 +17,11 @@ const Product = () => {
       {loading && <p>Carregando dados...</p>}
       {product && (
         <>
-      <h2>{product.name}</h2>
-      <p>R${product.price}</p>
-      {/* 6- nested routers */}
-      <Link to={`products/${product.id}/info`}>Mais informações</Link>
-      </>
+          <h2>{product.name}</h2>
+          <p>R${product.price}</p>
+          {/* 6- nested routers */}
+          <Link to={`/products/${product.id}/info`}>Mais informações</Link>
+        </>
       )}
     </>
   );
